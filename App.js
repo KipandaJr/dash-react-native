@@ -8,22 +8,23 @@ import { faBraille, faUserTie, faBars, faCogs } from '@fortawesome/free-solid-sv
 import HomeScreen from './src/components/home/'
 import SettingScreen from './src/components/settings/'
 
-
 function SettingsScreen() {
   return (
     <View>
-      <SettingScreen/>
+      <SettingScreen />
     </View>
   );
 }
 const Home = () => {
   return (
     <View>
-
       <HomeScreen />
-    </View>)
+    </View>
+  )
 }
+
 const Tab = createBottomTabNavigator();
+
 
 export default function App() {
   return (

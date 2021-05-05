@@ -17,7 +17,7 @@ const Header = () => {
                     style={header.tinyLogo}
                     source={require('../../../../assets/user1.jpg')}
                 />
-                <Text style={header.name}>Kipanda Cardoso</Text>
+                <Text style={header.name}>Kipanda Cardoso Beleza</Text>
             </View>
         </ImageBackground>
     )
